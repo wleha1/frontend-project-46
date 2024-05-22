@@ -1,15 +1,13 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/wleha1/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/wleha1/frontend-project-46/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ddfd3e4381f08e1eef39/maintainability)](https://codeclimate.com/github/wleha1/frontend-project-46/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ddfd3e4381f08e1eef39/test_coverage)](https://codeclimate.com/github/wleha1/frontend-project-46/test_coverage)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/eca465b67f53cfa51376/maintainability)](https://codeclimate.com/github/wleha1/frontend-project-46/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/eca465b67f53cfa51376/test_coverage)](https://codeclimate.com/github/wleha1/frontend-project-46/test_coverage)
-
-# Вычислитель отличий
+# Вычислитель различий
 
 Данный проект представляет собой консольную утилиту для сравнения двух объектов. Объекты считываются только из файлов форматов JSON, YML и YAML.
 
-# Пример работы
+# Пример работы:
 
 ```
 gendiff file1.json file2.json

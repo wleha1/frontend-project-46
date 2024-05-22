@@ -1,11 +1,11 @@
-install:
-		node -v
-		npm ci
+setup:
+	npm ci
+gendiff:
+	node bin/gendiff.js
 lint:
-		npx eslint .
+	npx eslint .
+lint-fix:
+	npx eslint --fix .
 test:
-		npx jest --colors
-test-coverage:
-		npx jest --coverage
-link:
-		sudo npm link
+	npm test
+	

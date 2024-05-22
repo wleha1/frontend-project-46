@@ -1,10 +1,10 @@
 import { expect, test } from '@jest/globals';
 
 import { readFileSync } from 'node:fs';
-import formatter from '../src/format/index.js';
+import formatter from '../src/formats/index.js';
 
-import diffEngine from '../src/dif.js';
-import parser from '../src/parsers.js';
+import diffEngine from '../src/index.js';
+import parser from '../src/parser.js';
 
 const stylishResult = readFileSync('__fixtures__/expected.stylish.txt', 'utf-8');
 const plainResult = readFileSync('__fixtures__/expected.plain.txt', 'utf-8');
@@ -29,6 +29,6 @@ test('testing json nested', () => {
 });
 
 test('should be errors', () => {
-  expect(() => (parser('randomdata', 'whoops'))).toThrow('Unknown format of input file: \'whoops\'.');
-  expect(() => (formatter('randomdata', 'whoops'))).toThrow('Unknown formatDiff formatter: \'whoops\'.');
+  expect(() => (parser('randomdata', 'whoops'))).toThrow('not supported!');
+  expect(() => (formatter('randomdata', 'whoops'))).toThrow('not supported!');
 });
