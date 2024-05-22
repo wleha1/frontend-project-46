@@ -1,0 +1,116 @@
+[
+  {
+    "key": "common",
+    "nodeType": "complex",
+    "children": [
+      {
+        "key": "follow",
+        "nodeType": "add",
+        "val": false
+      },
+      {
+        "key": "setting1",
+        "nodeType": "nochange",
+        "val": "Value 1"
+      },
+      {
+        "key": "setting2",
+        "nodeType": "delete",
+        "val": 200
+      },
+      {
+        "key": "setting3",
+        "nodeType": "update",
+        "val": null,
+        "oldVal": true
+      },
+      {
+        "key": "setting4",
+        "nodeType": "add",
+        "val": "blah blah"
+      },
+      {
+        "key": "setting5",
+        "nodeType": "add",
+        "val": {
+          "key5": "value5"
+        }
+      },
+      {
+        "key": "setting6",
+        "nodeType": "complex",
+        "children": [
+          {
+            "key": "doge",
+            "nodeType": "complex",
+            "children": [
+              {
+                "key": "wow",
+                "nodeType": "update",
+                "val": "so much",
+                "oldVal": ""
+              }
+            ]
+          },
+          {
+            "key": "key",
+            "nodeType": "nochange",
+            "val": "value"
+          },
+          {
+            "key": "ops",
+            "nodeType": "add",
+            "val": "vops"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "group1",
+    "nodeType": "complex",
+    "children": [
+      {
+        "key": "baz",
+        "nodeType": "update",
+        "val": "bars",
+        "oldVal": "bas"
+      },
+      {
+        "key": "foo",
+        "nodeType": "nochange",
+        "val": "bar"
+      },
+      {
+        "key": "nest",
+        "nodeType": "update",
+        "val": "str",
+        "oldVal": {
+          "key": "value"
+        }
+      }
+    ]
+  },
+  {
+    "key": "group2",
+    "nodeType": "delete",
+    "val": {
+      "abc": 12345,
+      "deep": {
+        "id": 45
+      }
+    }
+  },
+  {
+    "key": "group3",
+    "nodeType": "add",
+    "val": {
+      "deep": {
+        "id": {
+          "number": 45
+        }
+      },
+      "fee": 100500
+    }
+  }
+]
