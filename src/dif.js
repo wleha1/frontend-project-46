@@ -52,4 +52,3 @@ const generateDiff = (filepath1, filepath2, format) => {
 };
 
 export default generateDiff;
-  

@@ -24,12 +24,14 @@
 	},
 	"homepage": "https://github.com/wleha1/frontend-project-46#readme",
 	"dependencies": {
+		"@eslint/js": "^9.3.0",
 		"@jest/globals": "^29.7.0",
 		"commander": "^10.0.0",
 		"eslint": "^8.34.0",
 		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-jest": "^27.2.1",
+		"globals": "^15.3.0",
 		"js-yaml": "^4.1.0",
 		"lodash": "^4.17.21"
 	},
