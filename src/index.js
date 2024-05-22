@@ -1,5 +1,6 @@
+/* eslint-env node */
+
 import { readFileSync } from 'node:fs';
-import { process } from 'node:process';
 import path from 'path';
 
 import parser from './parser.js';
